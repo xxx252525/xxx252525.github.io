@@ -18,22 +18,6 @@
 		"typescript": "^5.7.2",
 		"vue": "^3.5.13",
 		"vuepress": "^2.0.0-rc.19"
-	},
-	module.exports = {
-	    title: '天阁创客official',
-	    description: '...',
-	    themeConfig: {
-	        nav: [
-	            { text: '首页', link: '/' },
-	            { 
-	                text: '天阁创客official 教程', 
-	                items: [
-	                    { text: 'Github', link: 'https://github.com/xxx252525' },
-	                    { text: '哔哩哔哩', link: 'https://space.bilibili.com/617633317/?spm_id_from=333.999.0.0 }
-	                ]
-	            }
-	        ]
-	    }
 	}
-
+	
 }
