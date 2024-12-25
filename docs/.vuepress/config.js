@@ -17,6 +17,11 @@ export default defineUserConfig({
         ],
       },
     ],
+	sidebar: [
+		"/Linux设置Swap分区.md",
+		"/Docker可视化工具Portainer安装使用.md"
+	  ],
+	  
   }),
   title: '天阁创客official的三味书屋',
   description: '涵盖诸多教程',
