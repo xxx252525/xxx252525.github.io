@@ -17,10 +17,6 @@
 		"sass-embedded": "^1.83.0",
 		"typescript": "^5.7.2",
 		"vue": "^3.5.13",
-		"vuepress": "2.0.0-rc.19",
-		"vuepress-theme-reco": "2.0.0-rc.25"
-	},
-	"dependencies": {
-		"pnpm": "^9.15.1"
+		"vuepress": "^2.0.0-rc.19"
 	}
 }

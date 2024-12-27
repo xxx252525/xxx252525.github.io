@@ -1,6 +1,0 @@
-.page-content {
-  @apply flex-1 px-6 pt-6 pb-24 overflow-hidden;
-  .page-info {
-    @apply mb-4;
-  }
-}
