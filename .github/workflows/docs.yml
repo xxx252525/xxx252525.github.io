@@ -1,0 +1,57 @@
+name: 自动部署网站
+
+on:
+  # 每当 push 到 main 分支时触发部署
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 检出代码
+      - name: 检出代码
+        uses: actions/checkout@v4
+        with:
+          # 拉取完整 git 提交记录（用于 VuePress 的最近更新时间功能）
+          fetch-depth: 0
+
+      # 设置 pnpm
+      - name: 安装 pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9 # 可根据需要调整 pnpm 的版本
+
+      # 设置 Node.js
+      - name: 设置 Node.js 环境
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      # 安装依赖
+      - name: 安装项目依赖
+        run: pnpm install --frozen-lockfile
+
+      # 构建 VuePress 网站
+      - name: 构建网站
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: |
+          pnpm docs:build
+          touch docs/.vuepress/dist/.nojekyll # 生成 .nojekyll 文件
+
+      # 部署到 GitHub Pages
+      - name: 部署到 GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+        # 这是文档部署到的分支名称
+          target_branch: gh-pages
+          build_dir: docs/.vuepress/dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
