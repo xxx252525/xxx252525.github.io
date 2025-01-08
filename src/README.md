@@ -3,7 +3,7 @@ home: true
 icon: home
 title: 首页
 heroImage: /logo02.svg
-heroImageDark: /logo-dark.png
+heroImageDark: /logo-dark.svg
 bgImage: /assets/image/background-light.webp
 bgImageDark: /assets/image/background-dark.webp
 bgImageStyle:
