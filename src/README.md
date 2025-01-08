@@ -3,12 +3,13 @@ home: true
 icon: home
 title: 首页
 heroImage: /logo02.svg
-bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
-bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
+heroImageDark: /logo-dark.png
+bgImage: /assets/image/background-light.webp
+bgImageDark: /assets/image/background-dark.webp
 bgImageStyle:
   background-attachment: fixed
 heroText: 天阁创客official
-tagline: 这里含有大量的IT技术教程，内容实时更新，保持技术的最新。
+tagline: 这里含有大量的IT技术教程，涵盖多方向的内容，并且内容实时更新，保持技术的最新。
 actions:
   - text: 我的博客
     icon: lightbulb
@@ -17,19 +18,17 @@ actions:
 
   - text: Github
     link: 'https://github.com/xxx252525'
-	
+
   - text: 哔哩哔哩
     link: 'https://space.bilibili.com/617633317/?spm_id_from=333.999.0.0'
-	
+
   - text: 小黑盒
     link: 'https://xiaoheihe.cn/app/user/profile/28780634'
 
 highlights:
-  - header: 天阁创客official的三味书屋
-    description: 涵盖教程内容如下
-    image: /logo-dark.png
-    bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
+  - header: 涵盖教程内容如下
+    bgImage: /assets/image/bg-cover-light.webp
+    bgImageDark: /assets/image/bg-cover-dark.webp
     bgImageStyle:
       background-repeat: repeat
       background-size: initial
