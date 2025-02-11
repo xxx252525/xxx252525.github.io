@@ -40,10 +40,9 @@ jobs:
         with:
           node-version: 22
           cache: pnpm
-
+      # corepack enable
       - name: 安装依赖
         run: |
-          corepack enable
           pnpm install --frozen-lockfile
 
       - name: 构建文档
