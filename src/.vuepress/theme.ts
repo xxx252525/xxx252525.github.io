@@ -5,7 +5,7 @@ import { repl } from '@vue/repl';
 import HeadPlugin from "vuepress-plugin-head";
 import Giscus from 'giscus';
 import vuepressPluginGiscus from "vuepress-plugin-giscus";
-
+import { commentPlugin } from '@vuepress/plugin-comment';
 
 
 export default hopeTheme({
@@ -38,7 +38,7 @@ export default hopeTheme({
   // 加密配置
   encrypt: {
     config: {
-      "/Linux/": ["wxses@5555"],
+      // "": ["wxses@5555"],
     },
   },
 
@@ -129,7 +129,7 @@ export default hopeTheme({
   plugins: {
     comment: {
       provider: "Giscus",
-      repo: "xxx252525/xxx252525.github.io/",
+      repo: "xxx252525/xxx252525.github.io",
       repoId: "R_kgDON38RVw",
       category: "Announcements",
       categoryId: "DIC_kwDON38RV84Cm5NY",
@@ -138,12 +138,8 @@ export default hopeTheme({
       reactionsEnabled: true,
 	  inputPosition: "bottom",
 	  embedComments: false,
-	  lightTheme: {
-        theme: "light",
-      },
-      darkTheme: {
-        theme: "dark",
-      },
+	  lightTheme: "light",
+      darkTheme: "dark",
     },
 
     components: {
@@ -159,7 +155,7 @@ export default hopeTheme({
         src: "https://giscus.app/client.js",
         "data-repo": "xxx252525/xxx252525.github.io",
         "data-repo-id": "R_kgDON38RVw",
-        "data-category": "Announcements",
+        "data-category": "General",
         "data-category-id": "DIC_kwDON38RV84Cm5NY",
         "data-mapping": "pathname",
         "data-strict": "0",
@@ -167,7 +163,7 @@ export default hopeTheme({
         "data-emit-metadata": "0",
         "data-input-position": "bottom",
         "data-theme": "noborder_light",
-        "data-lang": "zh-CN",
+        "data-lang": "en-US",
         crossorigin: "anonymous",
         async: true,
         },

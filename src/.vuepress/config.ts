@@ -23,20 +23,24 @@ export default defineUserConfig({
       placeholder: '搜索文档',  // 搜索框的提示文本
     }),
 	noticePlugin({
-      message: "公告",
-      path: "/", // 匹配所有路径
-      title: "公告 (必看) ",
-      content: "招募作者完善其他方向的教程，例如：前端、后端、游戏开发、嵌入式、区块链",
-      showOnce: true,
-      fullscreen: true,
-	  confirm: true,
-      actions: [
-        {
-          text: "联系方式",
-          link: "https://qm.qq.com/q/U9YDo0K5EK",
-          type: "primary",
-        },
-      ],
+      config: [{
+        message: "公告",
+        path: "/", // 匹配所有路径
+        title: "公告 (必看) ",
+        content: 
+        "招募作者完善其他方向的教程，例如：前端、后端、游戏开发、嵌入式、区块链",
+        showOnce: true,
+        // fullscreen: true,
+	    confirm: true,
+        actions: [
+          {
+            text: "点击添加联系方式",
+            link: "https://qm.qq.com/q/U9YDo0K5EK",
+            type: "primary",
+          },
+        ],
+	  }],
+
 	}),
   ],
 
