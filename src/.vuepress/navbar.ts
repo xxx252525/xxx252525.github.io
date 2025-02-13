@@ -88,10 +88,10 @@ export default navbar([
     text: "算法",
     icon: "book",
     children: [
-      { text: "数据结构与算法", icon: '/assets/icon/数据结构.svg', link: "/DataStructures&Algorithms/" },
-      { text: "密码学", icon: '/assets/icon/Encrypt.svg', link: "/Cryptography/" },
-      { text: "OpenCV算法", icon: '/assets/icon/opencv.svg', link: "/OpenCV/" },
-      { text: "Yolov算法", icon: '/assets/icon/Yolov.svg', link: "/Yolov/" },
+      { text: "数据结构与算法", icon: '/assets/icon/数据结构.svg', link: "/Arithmetic/DataStructures&Algorithms/" },
+      { text: "密码学", icon: '/assets/icon/Encrypt.svg', link: "/Arithmetic/Cryptography/" },
+      { text: "OpenCV算法", icon: '/assets/icon/opencv.svg', link: "/Arithmetic/OpenCV/" },
+      { text: "Yolov算法", icon: '/assets/icon/Yolov.svg', link: "/Arithmetic/Yolov/" },
     ],
   },
   {
