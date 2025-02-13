@@ -7,6 +7,9 @@ tag:
   - 加密
 contributors: true
 lastUpdated: true
+pageview: true
+isOriginal: true
+date: 2023-02-08
 ---
 
 # Linux基础
