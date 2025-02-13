@@ -38,7 +38,7 @@ Linux有很多类型的发行版，例如：
 
 Linux操作系统主要由内核（Kernel）和用户界面（UserInterface）两部分组成。内核是操作系统的核心，负责管理系统的资源和与硬件交互。用户界面则是用户与操作系统进行交互的界面，包括命令行界面（CLI）和图形用户界面（GUI）。如图：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250208143541326.png" alt="image-20250208143541326" style="zoom: 80%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250208143541326.png" alt="image-20250208143541326" style="zoom: 80%;" />
 
 ----
 
@@ -75,7 +75,7 @@ Linux的内核版本主要由：版本号、次版本号、末版本号、打包
 
 大致如图：
 
-![image-20250208145503756](./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250208145503756.png)
+![image-20250208145503756](./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250208145503756.png)
 
 大致解读如下：
 
@@ -123,11 +123,11 @@ Linux的内核版本主要由：版本号、次版本号、末版本号、打包
 
 下载好Vmware的安装包之后，双击安装即可，推荐安装在非系统盘。安装好之后桌面会有一个图标，如图：
 
-![Vmware](./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250208161929215-1739094311334-1.png)
+![Vmware](./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250208161929215-1739094311334-1.png)
 
 然后双击打开Vmware即可，如图：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250208162052047.png" alt="image-20250208162052047" style="zoom:67%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250208162052047.png" alt="image-20250208162052047" style="zoom:67%;" />
 
 接下来就是操作系统的安装步骤。
 
@@ -135,59 +135,59 @@ Linux的内核版本主要由：版本号、次版本号、末版本号、打包
 
 我们点击创建新的虚拟机，如图：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250208165026827.png" alt="image-20250208165026827" style="zoom:67%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250208165026827.png" alt="image-20250208165026827" style="zoom:67%;" />
 
 然后我们选择自定义高级选项，如图：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250208165106847.png" alt="image-20250208165106847" style="zoom:80%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250208165106847.png" alt="image-20250208165106847" style="zoom:80%;" />
 
 然后直接点击下一步即可，如图：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250208165452718.png" alt="image-20250208165452718" style="zoom: 80%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250208165452718.png" alt="image-20250208165452718" style="zoom: 80%;" />
 
 我们稍后安装系统，直接下一步，如图操作：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250208165539086.png" alt="image-20250208165539086" style="zoom:80%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250208165539086.png" alt="image-20250208165539086" style="zoom:80%;" />
 
 然后我们勾选Linux选项，选择Fedora 64位，如图：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250208165628107.png" alt="image-20250208165628107" style="zoom:80%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250208165628107.png" alt="image-20250208165628107" style="zoom:80%;" />
 
 然后我们设置好虚拟机的名称和存储位置，下一步。
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250208165753837.png" alt="image-20250208165753837" style="zoom:80%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250208165753837.png" alt="image-20250208165753837" style="zoom:80%;" />
 
 我们在选择处理器配置的时候根据自身电脑情况进行选择，如果是电脑4核心处理器，推荐设置处理器为1核心，如果是电脑5-8核心处理器，推荐设置2核心，如图：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250208170015235.png" alt="image-20250208170015235" style="zoom:80%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250208170015235.png" alt="image-20250208170015235" style="zoom:80%;" />
 
 我们在选择内存的时候也要根据自身的电脑内存进行选择，如果是16GB/24GB电脑内存，推荐4GB，更大电脑内存的可以更多，8GB内存的推荐1-2GB就可以了，如图：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250208170146018.png" alt="image-20250208170146018" style="zoom:80%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250208170146018.png" alt="image-20250208170146018" style="zoom:80%;" />
 
 然后我们选择NAT网络，当然你也可以选择桥接，如图：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250208170446157.png" alt="image-20250208170446157" style="zoom:80%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250208170446157.png" alt="image-20250208170446157" style="zoom:80%;" />
 
 然后我们一直点击下一步，点击三次，如图：
 
-![image-20250208170609634](./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250208170609634.png)
+![image-20250208170609634](./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250208170609634.png)
 
 然后我们创建磁盘大小的时候我们存储为但个文件，，磁盘大小根据自己电脑情况进行选择，推荐50GB，如果电脑可用空间超过150GB，可以更大，但不推荐，如图：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250208170929622.png" alt="image-20250208170929622" style="zoom:80%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250208170929622.png" alt="image-20250208170929622" style="zoom:80%;" />
 
 然后如图操作：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250208171023427.png" alt="image-20250208171023427" style="zoom: 80%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250208171023427.png" alt="image-20250208171023427" style="zoom: 80%;" />
 
 然后我们选择下载好的ISO文件，也就是Fedora的镜像文件，如图：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250208171130822.png" alt="image-20250208171130822" style="zoom:80%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250208171130822.png" alt="image-20250208171130822" style="zoom:80%;" />
 
 最后点击关闭，点击完成，就会创建一个窗口，如图：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250208171229720.png" alt="image-20250208171229720" style="zoom:67%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250208171229720.png" alt="image-20250208171229720" style="zoom:67%;" />
 
 这样，就创建好了Fedora虚拟机窗口，但是并没有创建好完整的虚拟机，因为我们还没有进行系统安装。
 
@@ -195,61 +195,61 @@ Linux的内核版本主要由：版本号、次版本号、末版本号、打包
 
 我们点击开启此虚拟机，然后就会进入到操作系统的安装界面。
 
-![image-20250208171426853](./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250208171426853.png)
+![image-20250208171426853](./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250208171426853.png)
 
 **注意，从此处开始物理主机的步骤和下面操作是一样的。**
 
-进入之后我们选择Install Fedora 39选项，然后按住Enter键，如图：<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250209165353911.png" alt="image-20250209165353911" style="zoom:67%;" />
+进入之后我们选择Install Fedora 39选项，然后按住Enter键，如图：<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250209165353911.png" alt="image-20250209165353911" style="zoom:67%;" />
 
 启动之后等待一段时间，进入如图界面：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250209170244147.png" alt="image-20250209170244147" style="zoom: 50%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250209170244147.png" alt="image-20250209170244147" style="zoom: 50%;" />
 
 我们选择简体中文，然后点击下一步，首先我们先选择安装目标位置，点击如图地方：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250209170500598.png" alt="image-20250209170500598" style="zoom: 67%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250209170500598.png" alt="image-20250209170500598" style="zoom: 67%;" />
 
 新手推荐直接选择自动，然后点击完成即可如图：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250209170609963.png" alt="image-20250209170609963" style="zoom:67%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250209170609963.png" alt="image-20250209170609963" style="zoom:67%;" />
 
 接下来设置网络和主机名，我们点击网络和主机名选项即可，进入如图界面：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250209170911573.png" alt="image-20250209170911573" style="zoom:55%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250209170911573.png" alt="image-20250209170911573" style="zoom:55%;" />
 
 接下来我们点击软件选择这个选项，进入如图界面：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250209171106190.png" alt="image-20250209171106190" style="zoom:55%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250209171106190.png" alt="image-20250209171106190" style="zoom:55%;" />
 
 **注意：如果你需要有Web控制界面的，推荐第一个Fedora Server选项。**
 
 接下来我们点击Root账户选项，进入如图界面：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250209171225160.png" alt="image-20250209171225160" style="zoom:55%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250209171225160.png" alt="image-20250209171225160" style="zoom:55%;" />
 
 最后来创建用户，点击创建用户选项，如图：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250209171406546.png" alt="image-20250209171406546" style="zoom:55%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250209171406546.png" alt="image-20250209171406546" style="zoom:55%;" />
 
 完成之后，点击开始安装，如图：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250209171455295.png" alt="image-20250209171455295" style="zoom:80%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250209171455295.png" alt="image-20250209171455295" style="zoom:80%;" />
 
 正在安装系统，如图：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250209171525822.png" alt="image-20250209171525822" style="zoom:80%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250209171525822.png" alt="image-20250209171525822" style="zoom:80%;" />
 
 安装完成之后，我们点击右下角的重启系统即可进入操作系统。如图：
 
-![image-20250209172022518](./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250209172022518.png)
+![image-20250209172022518](./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250209172022518.png)
 
 重启之后如图：
 
-![image-20250209172219450](./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250209172219450.png)
+![image-20250209172219450](./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250209172219450.png)
 
 这样我们的Fedora操作系统就安装好了，我们可以登陆操作系统，如图：
 
-![image-20250209172600173](./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250209172600173.png)
+![image-20250209172600173](./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250209172600173.png)
 
 ---
 
@@ -263,35 +263,35 @@ Linux的内核版本主要由：版本号、次版本号、末版本号、打包
 
 TF卡就是我们常见的手机内存卡、行车记录仪内存卡。如图：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250209131903974.png" alt="image-20250209131903974" style="zoom:50%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250209131903974.png" alt="image-20250209131903974" style="zoom:50%;" />
 
 我们需要使用工具`balenaEtcher`来进行系统烧录。
 
 软件下载地址如下：https://www.ilanzou.com/s/Wkk077qM
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250208162637439.png" alt="image-20250208162637439" style="zoom: 80%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250208162637439.png" alt="image-20250208162637439" style="zoom: 80%;" />
 
 如果你想使用便携版本，也就是放在u盘里面就能使用，那么请下载解压版本。这里我使用安装版本，双击即可自动安装，期间不需要进行其他操作。安装成功之后会自动启动，如图：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250208162851434.png" alt="image-20250208162851434" style="zoom:67%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250208162851434.png" alt="image-20250208162851434" style="zoom:67%;" />
 
 #### 系统烧录
 
 首先我们要启动`balenaEtcher`，然后我们点击从文件烧录，选择我们需要烧录的镜像。
 
-![image-20250208164424403](./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250208164424403.png)
+![image-20250208164424403](./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250208164424403.png)
 
 然后选择目标磁盘，如图：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250208164459763.png" alt="image-20250208164459763" style="zoom: 67%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250208164459763.png" alt="image-20250208164459763" style="zoom: 67%;" />
 
 勾选已经识别到的U盘或者读卡器，如图：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250208164541969.png" alt="image-20250208164541969" style="zoom:67%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250208164541969.png" alt="image-20250208164541969" style="zoom:67%;" />
 
 最后点击开始烧录即可，如图：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250208164609143.png" alt="image-20250208164609143" style="zoom:67%;" />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250208164609143.png" alt="image-20250208164609143" style="zoom:67%;" />
 
 烧录完成之后，我们拔掉U盘，然后将U盘插到需要安装的电脑上面，然后关机。
 
@@ -315,7 +315,7 @@ sudo dnf update
 
 如图：
 
-![image-20250209172758630](./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250209172758630.png)
+![image-20250209172758630](./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250209172758630.png)
 
 
 
@@ -331,7 +331,7 @@ sudo dnf install -y openssh-server
 
 安装成功如下：
 
-![image-20250209173137296](./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250209173137296.png)
+![image-20250209173137296](./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250209173137296.png)
 
 然后我们要启动这个远程连接服务，并且让他开机自启动，方便我们使用，操作如下。
 
@@ -346,11 +346,11 @@ sudo systemctl enable sshd.service
 ifcondig
 ```
 
-![image-20250209173505785](./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250209173505785.png)
+![image-20250209173505785](./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250209173505785.png)
 
 接下来我们打开Windows的终端，如图：
 
-![image-20250209173525239](./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250209173525239.png)
+![image-20250209173525239](./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250209173525239.png)
 
 然后我们在终端中输入如下命令进行连接。
 
@@ -362,17 +362,17 @@ ssh miui@192.168.48.101 -p 22
 
 然后按住Enter键开始连接，第一次连接会要求在本地电脑保存一个密钥，我们输入yes即可，如图：
 
-![image-20250209173738874](./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250209173738874.png)
+![image-20250209173738874](./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250209173738874.png)
 
 然后输入我们的账户密码进行连接即可，如图：
 
-![image-20250209173843884](./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250209173843884.png)
+![image-20250209173843884](./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250209173843884.png)
 
 ### 关机
 
 我们可以使用Vmware进行强制关机，也可以使用系统自带的命令进行关机，如下：
 
-<img src="./02Linux%E5%9F%BA%E7%A1%80.assets/image-20250209174151130.png" alt="image-20250209174151130"  />
+<img src="./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250209174151130.png" alt="image-20250209174151130"  />
 
 在终端中，输入如下命令即可关机。
 
