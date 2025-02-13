@@ -1,21 +1,21 @@
 import { sidebar } from "vuepress-theme-hope";
-import fs from 'fs';
-import path from 'path';
+// import fs from 'fs';
+// import path from 'path';
 
-function getSortedChildren(prefix) {
-  const dirPath = path.resolve(__dirname, '../', prefix);
-  const files = fs.readdirSync(dirPath);
+// function getSortedChildren(prefix) {
+//   const dirPath = path.resolve(__dirname, '../', prefix);
+//   const files = fs.readdirSync(dirPath);
   
-  // 按照文件名升序排序
-  const sortedFiles = files
-    .filter(file => file.endsWith('.md'))
-    .sort((a, b) => a.localeCompare(b));
+//   // 按照文件名升序排序
+//   const sortedFiles = files
+//     .filter(file => file.endsWith('.md'))
+//     .sort((a, b) => a.localeCompare(b));
   
-  return sortedFiles.map(file => ({
-    text: file.replace('.md', ''),
-    link: `/${prefix}${file}`,
-  }));
-}
+//   return sortedFiles.map(file => ({
+//     text: file.replace('.md', ''),
+//     link: `/${prefix}${file}`,
+//   }));
+// }
 
 
 export default sidebar({
