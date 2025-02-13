@@ -1,5 +1,4 @@
 ---
-title: Linux基础
 icon: /assets/icon/linux.svg
 category:
   - 运维基础
@@ -10,7 +9,7 @@ isOriginal: true
 ---
 
 
-# Linux基础
+# 02Linux基础
 
 ## Linux简介
 
