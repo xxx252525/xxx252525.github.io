@@ -1,10 +1,15 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
-import { repl } from 'vue/repl';
+import { repl } from '@vue/repl';
+import HeadPlugin from "vuepress-plugin-head";
+import Giscus from 'giscus';
+import vuepressPluginGiscus from "vuepress-plugin-giscus";
+
+
 
 export default hopeTheme({
-  hostname: "https://tiangesec.github.io",
+  hostname: "https://xxx252525.github.io",
 
   author: {
     name: "天阁创客official",
@@ -16,7 +21,7 @@ export default hopeTheme({
 
   logo: "/logo.png",
 
-  repo: "xxx252525/tiangesec.github.io",
+  repo: "xxx252525/xxx252525.github.io",
 
   docsDir: "src",
 
@@ -120,20 +125,57 @@ export default hopeTheme({
     // sandpack: true,
   },
 
-  // 在这里配置主题提供的插件
+  //存在BUG暂时不启用
   plugins: {
-    // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
     comment: {
       provider: "Giscus",
-      repo: "xxx252525/tiangesec.github.io/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
+      repo: "xxx252525/xxx252525.github.io/",
+      repoId: "R_kgDON38RVw",
       category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      categoryId: "DIC_kwDON38RV84Cm5NY",
+      mapping: "pathname",
+      strict: false,
+      reactionsEnabled: true,
+	  inputPosition: "bottom",
+	  embedComments: false,
+	  lightTheme: {
+        theme: "light",
+      },
+      darkTheme: {
+        theme: "dark",
+      },
     },
 
     components: {
       components: ["Badge", "VPCard"],
     },
+
+    //存在BUG暂时不启用
+  HeadPlugin: {
+    head: [
+    [
+      "script", // 正确的字符串格式
+       {
+        src: "https://giscus.app/client.js",
+        "data-repo": "xxx252525/xxx252525.github.io",
+        "data-repo-id": "R_kgDON38RVw",
+        "data-category": "Announcements",
+        "data-category-id": "DIC_kwDON38RV84Cm5NY",
+        "data-mapping": "pathname",
+        "data-strict": "0",
+        "data-reactions-enabled": "1",
+        "data-emit-metadata": "0",
+        "data-input-position": "bottom",
+        "data-theme": "noborder_light",
+        "data-lang": "zh-CN",
+        crossorigin: "anonymous",
+        async: true,
+        },
+    ],
+    ],
+  },
+
+
 
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {

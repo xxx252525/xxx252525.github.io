@@ -33,8 +33,8 @@ export default navbar([
     text: "前端",
     icon: "book",
     children: [
-      { text: "HTML5教程", icon: '/assets/icon/HTML5.svg', link: "/HTML5/" },
-      { text: "CSS3教程", icon: '/assets/icon/CSS3.svg', link: "/CSS3/" },
+      { text: "HTML5教程", icon: '/assets/icon/HTML5.svg', link: "/HTML5&CSS3/" },
+      { text: "CSS3教程", icon: '/assets/icon/CSS3.svg', link: "/HTML5&CSS3/" },
       { text: "JavaScript教程", icon: '/assets/icon/javascript.svg', link: "/JavaScript/" },
       { text: "JQuery", icon: '/assets/icon/jquery.svg', link: "/JQuery/" },
       { text: "Vue", icon: '/assets/icon/Vue.svg', link: "/Vue/" },
