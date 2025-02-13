@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://tiangesec.github.io/sitemap.xml
+Sitemap: https://xxx252525.github.io/sitemap.xml
