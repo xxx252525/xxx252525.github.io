@@ -22,7 +22,7 @@ export default sidebar({
   "/": [
 	{
 	  text: "Linux教程", prefix: "Linux/", collapsible: true, 
-	  icon: "/assets/icon/Linux.svg", link: "/Linux/", children: "structure",
+	  icon: "/assets/icon/linux.svg", link: "/Linux/", children: "structure",
 	},
 	{
 	  text: "BashShell教程", prefix: "BashShell/", collapsible: true, 
@@ -50,12 +50,12 @@ export default sidebar({
 	  icon: "/assets/icon/php.svg", link: "/PHP/", children: "structure",
 	},
 	{
-	  text: "HTML5教程", prefix: "HTML5&CSS3/", collapsible: true, 
-	  icon: "/assets/icon/HTML5.svg", link: "/HTML5&CSS3/", children: "structure",
+	  text: "HTML5教程", prefix: "HTML5/", collapsible: true, 
+	  icon: "/assets/icon/HTML5.svg", link: "/HTML5/", children: "structure",
 	},
 	{
-	  text: "CSS3教程", prefix: "HTML5&CSS3/", collapsible: true, 
-	  icon: "/assets/icon/CSS3.svg", link: "/HTML5&CSS3/", children: "structure",
+	  text: "CSS3教程", prefix: "CSS3/", collapsible: true, 
+	  icon: "/assets/icon/CSS3.svg", link: "/CSS3/", children: "structure",
 	},
 	{
 	  text: "JavaScript教程", prefix: "JavaScript/", collapsible: true, 
@@ -95,8 +95,8 @@ export default sidebar({
 	  icon: "/assets/icon/django.svg", link: "/janngo/", children: "structure",
 	},
 	{
-	  text: "Gadle教程", prefix: "Gadle/", collapsible: true, 
-	  icon: "/assets/icon/gadle.svg", link: "/radle/", children: "structure",
+	  text: "Gradle教程", prefix: "Gardle/", collapsible: true, 
+	  icon: "/assets/icon/gradle.svg", link: "/Gradle/", children: "structure",
 	},
 	{
 	  text: "JQuery教程", prefix: "JQuery/", collapsible: true, 
@@ -132,7 +132,7 @@ export default sidebar({
 	},
 	{
 	  text: "Arduino教程", prefix: "Adruino/", collapsible: true,
-	  icon: "/assets/icon/Arduino.svg", link: "/Adruino/", children: "structure", 
+	  icon: "/assets/icon/arduino.svg", link: "/Adruino/", children: "structure", 
 	},
 	{
 	  text: "Keil教程", prefix: "Keil/", collapsible: true,
@@ -140,7 +140,7 @@ export default sidebar({
 	},
 	{
 	  text: "51单片机开发", prefix: "C51/", collapsible: true,
-	  icon: "/assets/icon/cpu.svg", link: "/C51/", children: "structure",
+	  icon: "/assets/icon/CPU.svg", link: "/C51/", children: "structure",
 	},
 	{
 	  text: "STM32开发", prefix: "STM32/", collapsible: true,
@@ -169,11 +169,11 @@ export default sidebar({
 	},
 	{
 	  text: "Nginx教程", prefix: "Middleware/Nginx/", collapsible: true,
-	  icon: "/assets/icon/nginx.svg", link: "/Middleware/Nginx/", children: "structure",
+	  icon: "/assets/icon/Nginx.svg", link: "/Middleware/Nginx/", children: "structure",
 	},
 	{
 	  text: "OpenResty教程", prefix: "Middleware/OpenResty/", collapsible: true,
-	  icon: "/assets/icon/OpenResty.svg", link: "/Middleware/OpenResty/", children: "structure",
+	  icon: "/assets/icon/openresty.svg", link: "/Middleware/OpenResty/", children: "structure",
 	},
 	{
 	  text: "Docker教程", prefix: "Docker/", collapsible: true,
@@ -181,11 +181,11 @@ export default sidebar({
 	},
 	{
 	  text: "Mongodb教程", prefix: "Database/Mongodb/", collapsible: true,
-	  icon: "/assets/icon/Mongodb.svg", link: "/Database/Mongodb/", children: "structure",
+	  icon: "/assets/icon/mongodb.svg", link: "/Database/Mongodb/", children: "structure",
 	},
 	{
 	  text: "Redis教程", prefix: "Database/Redis/", collapsible: true,
-	  icon: "/assets/icon/Redis.svg", link: "/Database/Redis/", children: "structure",
+	  icon: "/assets/icon/redis.svg", link: "/Database/Redis/", children: "structure",
 	},
 	{
 	  text: "DHCP教程", prefix: "Networks&Firewalls/DHCP/", collapsible: true,
@@ -193,7 +193,7 @@ export default sidebar({
 	},
 	{
 	  text: "FTP教程", prefix: "FileSharing/FTP/", collapsible: true,
-	  icon: "/assets/icon/FTP.svg", link: "/FileSharing/FTP/", children: "structure",
+	  icon: "/assets/icon/ftp.svg", link: "/FileSharing/FTP/", children: "structure",
 	},
 	{
 	  text: "NFS教程", prefix: "FileSharing/NFS/", collapsible: true,
@@ -201,11 +201,11 @@ export default sidebar({
 	},
 	{
 	  text: "DNS教程", prefix: "Networks&Firewalls/DNS/", collapsible: true,
-	  icon: "/assets/icon/DNS.svg", link: "/Networks&Firewalls/DNS/", children: "structure",
+	  icon: "/assets/icon/dns.svg", link: "/Networks&Firewalls/DNS/", children: "structure",
 	},
 	{
 	  text: "Tomcat教程", prefix: "Middleware/Tomcat/", collapsible: true,
-	  icon: "/assets/icon/Tomcat.svg", link: "/Middleware/Tomcat/", children: "structure",
+	  icon: "/assets/icon/tomcat.svg", link: "/Middleware/Tomcat/", children: "structure",
 	},
 	{
 	  text: "Rsync教程", prefix: "FileSharing/Rsync/", collapsible: true,
@@ -213,11 +213,11 @@ export default sidebar({
 	},
 	{
 	  text: "Ansible教程", prefix: "Ansible/", collapsible: true,
-	  icon: "/assets/icon/Ansible.svg", link: "/Ansible/", children: "structure",
+	  icon: "/assets/icon/ansible.svg", link: "/Ansible/", children: "structure",
 	},
 	{
 	  text: "Zabbix教程", prefix: "Zabbix/", collapsible: true, 
-	  icon: "/assets/icon/Zabbix.svg", link: "/Zabbix/", children: "structure",
+	  icon: "/assets/icon/zabbix.svg", link: "/Zabbix/", children: "structure",
 	},
 
 	{ 

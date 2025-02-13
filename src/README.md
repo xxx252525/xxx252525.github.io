@@ -53,10 +53,15 @@ highlights:
         details: 一个开源的应用容器引擎
         link: /Docker/
 
-      - title: HTML/CSS
+      - title: HTML5
         icon: /assets/icon/HTML5.svg
         details: 一套用于创建和渲染网页的语言
-        link: /HTML5&CSS3/
+        link: /HTML5/
+
+      - title: CSS3
+        icon: /assets/icon/CSS.svg
+        details: 一套用于描述网页样式的语言
+        link: /CSS3/
 
       - title: JavaScript
         icon: /assets/icon/javascript.svg

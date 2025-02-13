@@ -33,8 +33,8 @@ export default navbar([
     text: "前端",
     icon: "book",
     children: [
-      { text: "HTML5教程", icon: '/assets/icon/HTML5.svg', link: "/HTML5&CSS3/" },
-      { text: "CSS3教程", icon: '/assets/icon/CSS3.svg', link: "/HTML5&CSS3/" },
+      { text: "HTML5教程", icon: '/assets/icon/HTML5.svg', link: "/HTML/" },
+      { text: "CSS3教程", icon: '/assets/icon/CSS3.svg', link: "/CSS3/" },
       { text: "JavaScript教程", icon: '/assets/icon/javascript.svg', link: "/JavaScript/" },
       { text: "JQuery", icon: '/assets/icon/jquery.svg', link: "/JQuery/" },
       { text: "Vue", icon: '/assets/icon/Vue.svg', link: "/Vue/" },
@@ -74,7 +74,7 @@ export default navbar([
     text: "嵌入式开发",
     icon: "book",
     children: [
-      { text: "51教程", icon: '/assets/icon/cpu.svg', link: "/C51/" },
+      { text: "51教程", icon: '/assets/icon/CPU.svg', link: "/C51/" },
       { text: "STM32教程", icon: '/assets/icon/stm32.svg', link: "/STM32/" },
       { text: "ESP32教程", icon: '/assets/icon/ESP32.svg', link: "/ESP32/" },
       { text: "Arduino教程", icon: '/assets/icon/arduino.svg', link: "/Arduino/" },
