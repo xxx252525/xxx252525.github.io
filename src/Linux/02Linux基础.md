@@ -3,13 +3,12 @@ title: Linux基础
 icon: /assets/icon/linux.svg
 category:
   - 运维基础
-tag:
-  - 加密
 contributors: true
 lastUpdated: true
 pageview: true
 isOriginal: true
 ---
+
 
 # Linux基础
 
