@@ -25,23 +25,31 @@ export default defineUserConfig({
 	noticePlugin({
       config: [{
         message: "公告",
-        path: "/", // 匹配所有路径
+        path: "/", 
         title: "公告 (必看) ",
-        content: 
-        "招募作者完善其他方向的教程，例如：前端、后端、游戏开发、嵌入式、区块链",
+        content: `
+          招募作者完善其他方向的教程，例如：
+          <ul>
+          <li>前端</li>
+          <li>后端</li>
+          <li>游戏开发</li>
+          <li>嵌入式</li>
+          <li>区块链</li>
+          </ul>
+          详情请点击以下按钮：
+        `,
         showOnce: true,
-        // fullscreen: true,
-	    confirm: true,
+        confirm: true,
         actions: [
-          {
-            text: "点击添加联系方式",
-            link: "https://qm.qq.com/q/U9YDo0K5EK",
-            type: "primary",
-          },
-        ],
-	  }],
-
+        {
+          text: "投稿须知",
+          link: "/公告.md",
+          type: "primary",
+        }
+      ],
+      }],
 	}),
+	
   ],
 
   
