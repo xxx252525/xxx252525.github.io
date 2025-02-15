@@ -39,13 +39,18 @@ export default defineUserConfig({
           详情请点击以下按钮：
         `,
         showOnce: true,
-        confirm: true,
+        // fullscreen: true,
+        // confirm: true,
         actions: [
         {
           text: "投稿须知",
           link: "/公告.md",
           type: "primary",
-        }
+        },
+		{
+		  text: "不再提示",
+		  type: "primary",
+		}
       ],
       }],
 	}),

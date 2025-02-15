@@ -9,7 +9,7 @@ isOriginal: true
 ---
 
 
-# 02Linux基础
+# 02-Linux基础
 
 ## Linux简介
 

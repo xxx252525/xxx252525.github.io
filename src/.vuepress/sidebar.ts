@@ -244,12 +244,17 @@ export default sidebar({
 	  collapsible: true,
 	  children: "structure",
 	},
-	{
-	  text: "逆向安全",
-	  prefix: "逆向安全/",
-	  icon: "/assets/icon/SRC.svg",
-	  collapsible: true,
-	  children: "structure",
+	{ 
+	  text: "Android逆向", prefix: "AndroidReverse/", collapsible: true,
+	  icon: '/assets/icon/android.svg', link: "/AndroidReverse/", children: "structure",
+	},
+	{ 
+	  text: "游戏逆向", prefix: "GameReverse/", collapsible: true,
+	  icon: '/assets/icon/Game.svg', link: "/GameReverse/", children: "structure",
+	},
+	{ 
+	  text: "PC逆向与病毒分析", prefix: "PCReverse/", collapsible: true,
+	  icon: '/assets/icon/SRC.svg', link: "/PCReverse/", children: "structure", 
 	},
   ],
 });
