@@ -1,14 +1,3 @@
----
-icon: /assets/icon/linux.svg
-category:
-  - 运维基础
-contributors: true
-lastUpdated: true
-pageview: true
-isOriginal: true
----
-
-
 # 02-Linux基础
 
 ## Linux简介
@@ -94,7 +83,7 @@ Linux的内核版本主要由：版本号、次版本号、末版本号、打包
 
 准备环境如下：
 
-- 操作系统：Fedora39-Server
+- 操作系统：Fedora39-Server或者Fedora39-Workstation
 - 运行环境：VmwareWorkstation17(虚拟机）、OracleVirtualBox(虚拟机)、电脑主机
 
 操作系统有Desktop（桌面端）、Server（服务端）、Iot（嵌入式）、Cloud（云）等区分，区别如下：
@@ -250,6 +239,51 @@ Linux的内核版本主要由：版本号、次版本号、末版本号、打包
 
 ![image-20250209172600173](./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250209172600173.png)
 
+我们这里显示的是命令行操作，没有图形化的界面，如果你想使用像Windows这样的图形化界面，我们在下载镜像的时候可以选择使用DVD镜像或者KDE、GNOME等一类的镜像，一般下载的时候都有介绍，例如：
+
+![image-20250215131219083](./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250215131219083.png)
+
+如果逆向使用图形化界面的操作系统，我更推荐使用ubuntu22、fedora39、rocky9、deepin23。
+
+图形化下载地址如下：
+
+- Rocky9：https://www.ilanzou.com/s/olH0uknU
+- Ubuntu22：https://www.ilanzou.com/s/xic0uk6f
+- deepin23：https://www.ilanzou.com/s/pOU0ukmo
+- Fedora39：https://www.ilanzou.com/s/ojs0ukkM
+
+安装操作步骤如下：
+
+![image-20250215144027608](./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250215144027608.png)
+
+接下来会进入到熟悉的界面，和安装服务端的界面是一样的。
+
+![image-20250215144122473](./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250215144122473.png)
+
+![image-20250215144342371](./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250215144342371.png)
+
+安装完成之后直接重启，进入如图界面：
+
+![image-20250215144908371](./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250215144908371.png)
+
+点击配置，启用第三方软件源，如图：
+
+![image-20250215144951063](./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250215144951063.png)
+
+特别要注意。RHEL系列的系统目前都存在这个问题，会卡死，重启或者等待就好了：
+
+![image-20250215145123144](./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250215145123144.png)
+
+设置账户名称，如图：
+
+![image-20250215145153441](./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250215145153441.png)
+
+设置密码之后开始使用：
+
+![image-20250215145251648](./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250215145251648.png)
+
+**注意：后面的学习过程中，如果不习惯命令行界面，可以选择使用图形化界面的WorkStation。**
+
 ---
 
 
@@ -276,7 +310,9 @@ TF卡就是我们常见的手机内存卡、行车记录仪内存卡。如图：
 
 #### 系统烧录
 
-首先我们要启动`balenaEtcher`，然后我们点击从文件烧录，选择我们需要烧录的镜像。
+首先我们要启动`balenaEtcher`，然后我们点击从文件烧录，选择我们需要烧录的镜像。**注意：如果你使用的是笔记本电脑或者台式机，那么一定要安装带有图形界面的操作系统，我们选择的时候也要选择Workstation的镜像或者DVD镜像。**
+
+下载地址如下：https://www.ilanzou.com/s/ojs0ukkM
 
 ![image-20250208164424403](./02%E8%AE%A4%E8%AF%86Linux.assets/image-20250208164424403.png)
 
