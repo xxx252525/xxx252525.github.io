@@ -1,3 +1,14 @@
+---
+icon: /assets/icon/linux.svg
+category:
+  - 运维基础
+contributors: true
+lastUpdated: true
+pageview: true
+isOriginal: true
+date: 2023-02-15
+---
+
 # 03-走进Shell
 
 ## 认识Shell
