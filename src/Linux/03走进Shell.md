@@ -6,7 +6,7 @@ contributors: true
 lastUpdated: true
 pageview: true
 isOriginal: true
-date: 2023-02-15
+date: 2023-02-17
 ---
 
 # 03-走进Shell
@@ -148,7 +148,7 @@ ping 网址
 
 ### 命令存放路径
 
-我们命令存放在什么位置的呢？命令也是有区别的，如有shell内置命令、外部命令、别名、函数、shell保留字、特殊命令、文件系统命令等多种命令。
+我们命令存放在什么位置的呢？命令也是有区别的，如有shell内置命令、外部命令、别名、函数、shell保留字、特殊命令等多种命令。
 
 我们可以使用`echo $PATH`命令来查看Linux用户常见的默认路径。如图：
 
