@@ -7,7 +7,6 @@ import Giscus from 'giscus';
 import vuepressPluginGiscus from "vuepress-plugin-giscus";
 import { commentPlugin } from '@vuepress/plugin-comment';
 
-
 export default hopeTheme({
   hostname: "https://xxx252525.github.io",
 
@@ -85,7 +84,6 @@ export default hopeTheme({
     vPre: true,
 	alert: true,
 	vuePlayground: true,
-	
 
     // 取消注释它们如果你需要 TeX 支持
     // markdownMath: {

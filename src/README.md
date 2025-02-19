@@ -9,7 +9,7 @@ bgImageDark: /assets/image/background-dark.webp
 bgImageStyle:
   background-attachment: fixed
 heroText: 天阁创客official
-tagline: 这里含有大量的IT技术教程，涵盖多方向的内容，并且内容实时更新，保持技术的最新。
+tagline: 这里含有大量的IT技术教程，涵盖多方向的内容，并且内容实时更新，保持技术的最新，励志做最好的开源教程。
 actions:
   - text: 我的博客
     icon: lightbulb

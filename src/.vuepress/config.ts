@@ -3,6 +3,8 @@ import theme from "./theme.js";
 import { noticePlugin } from "@vuepress/plugin-notice";
 import { repl } from '@vue/repl';
 import { docsearchPlugin } from "@vuepress/plugin-docsearch";
+import { headersPlugin } from '@mdit-vue/plugin-headers';
+
 
 export default defineUserConfig({
   base: "/",
@@ -12,9 +14,10 @@ export default defineUserConfig({
   pageInfo: true,
   theme,
   markdown: {
-    level: [1, 2, 3, 4, 5, 6],
+    toc: { includeLevel: [2, 3, 4, 5, 6] },
+    headers: { level: [2, 3, 4, 5, 6] },
   },
-  
+
   plugins: [
     docsearchPlugin({
       appId: 'G4HN6M8APR',  // 在 DocSearch 设置中获得的 appId
@@ -24,11 +27,12 @@ export default defineUserConfig({
     }),
 	noticePlugin({
       config: [{
-        message: "公告",
+        // message: "公告",
         path: "/", 
-        title: "公告 (必看) ",
+        title: "公告 (重要通知) ",
         content: `
-          招募作者完善其他方向的教程，例如：
+		<p>发布时间：2025年2月10日</p>
+        <p>本站招募作者完善其他方向的教程，例如：</p>
           <ul>
           <li>前端</li>
           <li>后端</li>
@@ -36,11 +40,11 @@ export default defineUserConfig({
           <li>嵌入式</li>
           <li>区块链</li>
           </ul>
-          详情请点击以下按钮：
+          投稿详情请点击以下按钮：
         `,
-        showOnce: true,
-        // fullscreen: true,
-        // confirm: true,
+        showOnce: false,
+        fullscreen: false,
+        confirm: false,
         actions: [
         {
           text: "投稿须知",
@@ -48,31 +52,17 @@ export default defineUserConfig({
           type: "primary",
         },
 		{
-		  text: "不再提示",
-		  type: "primary",
-		}
+		  text: "下次提醒",
+          type: "primary",
+		},
       ],
       }],
 	}),
-	
+	// headersPlugin({
+	//   // 可选配置，确保标题级别显示
+	//   level: [1, 2, 3, 4, 5, 6],
+	// }),
   ],
 
-  
-  // themeConfig: {
-  //   notice: { // 在 themeConfig 中配置 notice 插件
-  //     message: "公告",
-  //     path: "/", // 匹配所有路径
-  //     title: "公告 (必看) ",
-  //     content: "招募作者完善其他方向的教程，例如：前端、后端、游戏开发、嵌入式、区块链",
-  //     showOnce: true,
-  //     actions: [
-  //       {
-  //         text: "联系方式",
-  //         link: "https://qm.qq.com/q/U9YDo0K5EK",
-  //         type: "primary",
-  //       },
-  //     ],
-  //   },
-  // },
   
 });

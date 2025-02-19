@@ -9,6 +9,7 @@ isOriginal: true
 date: 2023-02-18
 ---
 
+
 # 04-shell变量
 
 在Shell脚本编程中，变量是用来存储和使用数据的内存位置。Shell变量可以是数字、文本字符串或者文件名等。这里我们不讲解shell编程，shell编程我们会专门开一个内容板块来学习，请跳转到此处学习：https://xxx252525.github.io/Shell/。
@@ -837,9 +838,9 @@ source
 
 - ~/.bash_profile的作用：
 
-  - 调用了~/.bashrc文件。
+  - 调用了~/.bashrc文件，只有用户登陆的时候才执行这个文件。
 
-  - 在PATH变量后面加入了"：$HOME/bin"这个目录
+  - 在PATH变量后面加入了"：$HOME/bin"这个目录。
 
 - /etc/bashrc的作用：
 
@@ -859,6 +860,9 @@ source
   - 该文件会保存你上次登录终端后使用的历史命令
 
   - 若要修改历史命令的上限需要在.bashrc和/etc/profile文件中修改
+- /etc/profile：
+  - 给每个用户设置用户环境。
+
 
 
 
