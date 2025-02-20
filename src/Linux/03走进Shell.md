@@ -6,7 +6,7 @@ contributors: true
 lastUpdated: true
 pageview: true
 isOriginal: true
-date: 2023-02-17
+date: 2025-02-17
 ---
 
 
@@ -271,6 +271,8 @@ sudo主要适用于提权操作，并不能直接切换到root账户，如果要
 
 ## 命令行编辑
 
+### vim编辑器
+
 我们可以使用Linux中的最强命令行编辑器vim来进行编辑，vim是vi编辑器的升级版，功能性和拓展性更强；和Emacs并列成为类Unix系统用户最喜欢的文本编辑器。
 
 <img src="./03%E8%B5%B0%E8%BF%9BShell.assets/image-20250216172544637.png" alt="image-20250216172544637" style="zoom: 67%;" />
@@ -287,7 +289,7 @@ vim [filename]
 
 vim会进入文件中进行编辑，如果当前文件不存在，那么会自动创建一个文件。
 
-### 工作模式
+### vim工作模式
 
 vim编辑器有三种编辑模式，分别是命令模式、编辑模式和末行模式。
 
@@ -367,7 +369,7 @@ vim编辑器有三种编辑模式，分别是命令模式、编辑模式和末�
 
 这部分内容只有在你编辑文本的时候才会使用到。
 
-![image-20250216175302614](./03%E8%B5%B0%E8%BF%9BShell.assets/image-20250216175302614.png)
+![退出编辑](./03%E8%B5%B0%E8%BF%9BShell.assets/image-20250216175302614.png)
 
 
 

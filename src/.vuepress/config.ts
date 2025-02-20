@@ -12,6 +12,7 @@ export default defineUserConfig({
   title: "天阁创客的三味书屋",
   description: "三味书屋包含大量的IT教程",
   pageInfo: true,
+  // pageinfo: ["Author", "Date", "Category", "Original", "Tag", "ReadingTime", "Word","PageView"],
   theme,
   markdown: {
     toc: { includeLevel: [2, 3, 4, 5, 6] },

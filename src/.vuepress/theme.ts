@@ -23,6 +23,8 @@ export default hopeTheme({
   repo: "xxx252525/xxx252525.github.io",
 
   docsDir: "src",
+  
+  // pageinfo: ["Author", "Date", "Category", "Original", "Tag", "ReadingTime", "Word","PageView"],
 
   // 导航栏
   navbar,

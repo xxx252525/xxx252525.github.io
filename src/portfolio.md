@@ -3,7 +3,7 @@ home: true
 portfolio: true
 title: 关于我
 icon: /assets/icon/自我介绍.svg
-welcome: 👋 2024全网粉丝数量790，社区成员数量50+。
+welcome: 👋 2024全网粉丝数量700+，社区成员数量50+。
 name: 天阁创客official
 avatar: https://theme-hope-assets.vuejs.press/hero/conan.png
 
