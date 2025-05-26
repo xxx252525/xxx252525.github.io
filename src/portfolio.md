@@ -28,7 +28,7 @@ footer: false
 - `CSDN`：天阁创客official 【有账号不做内容】[点击进入](https://blog.csdn.net/qq_64349036)
 - `微信公众号`：天阁创客official 【复活更新】
 - `Gitee`：天阁创客official 【内容在更新】[点击进入](https://gitee.com/TIANGESEC)
-- `Atomgit开放原子`：天阁创客official 【内容在更新】[点击进入](https://atomgit.com/xxx252525)
+- `Atomgit开放原子`：天阁创客official 【有账号】[点击进入](https://atomgit.com/xxx252525)
 - `吾爱破解论坛`：TIANGESEC【有账号】[点击进入](https://www.52pojie.cn/home.php?mod=space&uid=2257592)
 
 ## 官方讨论群
