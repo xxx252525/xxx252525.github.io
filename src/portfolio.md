@@ -4,11 +4,11 @@ portfolio: true
 title: 关于我
 icon: /assets/icon/自我介绍.svg
 welcome: 👋 2024全网粉丝数量1000+，社区成员数量90+。
-name: 天阁创客official
+name: 天阁创客official【女装：天韵阁主-青瑶】
 avatar: https://theme-hope-assets.vuejs.press/hero/conan.png
 
 titles:
-  - 我是一个热爱技术的极客
+  - 我是一个热爱技术的小男娘
   - 同时也是一个热爱生活的普通人
   - 这是我的第二个教程类网站
   - 这里有大量的IT技术教程

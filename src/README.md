@@ -13,7 +13,7 @@ tagline: 这里含有大量的IT技术教程，涵盖多方向的内容，并且
 actions:
   - text: 我的博客
     icon: lightbulb
-    link: 'https://tiangesec.org.cn/'
+    link: 'https://frp-gas.com:24392/'
     type: primary
 
   - text: Github
@@ -24,6 +24,9 @@ actions:
 
   - text: 小黑盒
     link: 'https://xiaoheihe.cn/app/user/profile/28780634'
+	
+  - text: 博客园
+    link: 'https://www.cnblogs.com/tiangesec'
 
 highlights:
   - header: 涵盖教程内容如下
