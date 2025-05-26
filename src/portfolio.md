@@ -3,8 +3,8 @@ home: true
 portfolio: true
 title: 关于我
 icon: /assets/icon/自我介绍.svg
-welcome: 👋 2024全网粉丝数量1000+，社区成员数量90+。
-name: 天阁创客official【女装：天韵阁主-青瑶】
+welcome: 👋 2024全网粉丝数量1000+，社区成员数量90+，女装：天韵阁主-青瑶。
+name: 天阁创客official
 avatar: https://theme-hope-assets.vuejs.press/hero/conan.png
 
 titles:
