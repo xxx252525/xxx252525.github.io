@@ -3,7 +3,7 @@ home: true
 portfolio: true
 title: 关于我
 icon: /assets/icon/自我介绍.svg
-welcome: 👋 2024全网粉丝数量1000+，社区成员数量90+，女装：天韵阁主-青瑶。
+welcome: 👋 2024全网粉丝数量1500+，社区成员数量90+，女装：天韵阁主-青瑶。
 name: 天阁创客official
 avatar: https://theme-hope-assets.vuejs.press/hero/conan.png
 
@@ -26,8 +26,8 @@ footer: false
 - `博客园`：天阁创客official 【内容在更新】[点击进入](https://www.cnblogs.com/tiangesec)
 - `Github`：天阁创客official 【内容在更新】[点击进入](https://github.com/xxx252525)
 - `CSDN`：天阁创客official 【有账号不做内容】[点击进入](https://blog.csdn.net/qq_64349036)
-- `微信公众号`：天阁创客official 【复活更新】
-- `Gitee`：天阁创客official 【内容在更新】[点击进入](https://gitee.com/TIANGESEC)
+- `微信公众号`：天阁创客official 【有账号不做内容】
+- `Gitee`：天阁创客official 【有账号】[点击进入](https://gitee.com/TIANGESEC)
 - `Atomgit开放原子`：天阁创客official 【有账号】[点击进入](https://atomgit.com/xxx252525)
 - `吾爱破解论坛`：TIANGESEC【有账号】[点击进入](https://www.52pojie.cn/home.php?mod=space&uid=2257592)
 
