@@ -3,12 +3,12 @@ home: true
 portfolio: true
 title: 关于我
 icon: /assets/icon/自我介绍.svg
-welcome: 👋 2024全网粉丝数量1500+，社区成员数量90+，女装：天韵阁主-青瑶。
+welcome: 👋 2024全网粉丝数量2300+，社区成员数量100+，女装：小青瑶。
 name: 天阁创客official
 avatar: https://theme-hope-assets.vuejs.press/hero/conan.png
 
 titles:
-  - 我是一个热爱技术的小男娘
+  - 我是一个热爱技术的xyn
   - 同时也是一个热爱生活的普通人
   - 这是我的第二个教程类网站
   - 这里有大量的IT技术教程
@@ -19,9 +19,9 @@ footer: false
 ---
 
 ## 官方平台账号
-- `哔哩哔哩`：天韵阁主-青瑶 【大号内容在更新】[点击进入](https://space.bilibili.com/617633317)
-- `小黑盒`：天韵阁主-青瑶 【内容在更新】[点击进入](https://xiaoheihe.cn/app/user/profile/28780634)
-- `抖音`：天阁创客official 【有账号】
+- `哔哩哔哩`：青瑶爱吃糖 【大号内容在更新】[点击进入](https://space.bilibili.com/617633317)
+- `小黑盒`：小青瑶爱吃糖 【内容在更新】[点击进入](https://xiaoheihe.cn/app/user/profile/28780634)
+- `抖音`：已注销 【被封杀】
 - `YouTube`：Quinn Landon Zhong 【有账号】[点击进入](https://www.youtube.com/@QuinnLandonZhong)
 - `博客园`：天阁创客official 【内容在更新】[点击进入](https://www.cnblogs.com/tiangesec)
 - `Github`：天阁创客official 【内容在更新】[点击进入](https://github.com/xxx252525)
