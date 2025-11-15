@@ -3,23 +3,24 @@ home: true
 portfolio: true
 title: 关于我
 icon: /assets/icon/自我介绍.svg
-welcome: 👋 2024全网粉丝数量2300+，社区成员数量100+，女装：小青瑶。
-name: 天阁创客official
+welcome: 👋 2025全网粉丝数量2400+，社区成员数量100+，持续关注小青瑶🍥⚧。
+name: 天阁创客official【现：小青瑶🍥⚧】
 avatar: https://theme-hope-assets.vuejs.press/hero/conan.png
 
 titles:
-  - 我是一个热爱技术的xyn
+  - 我是一个热爱技术、热爱女装的xyn
   - 同时也是一个热爱生活的普通人
   - 这是我的第二个教程类网站
   - 这里有大量的IT技术教程
-  - 内容新颖，长期更新
+  - 内容新颖，已暂停更新，没有收益。
   - 请大家多多支持！！！
 
 footer: false
 ---
 
 ## 官方平台账号
-- `哔哩哔哩`：青瑶爱吃糖 【大号内容在更新】[点击进入](https://space.bilibili.com/617633317)
+- `推特`：XiaoQingYao🍥【偶尔更新】[点击进入](https://x.com/tiangesec?t=9Gj9H_coiTa26doy0f_Niw&s=09)
+- `哔哩哔哩`：青瑶爱吃糖 【内容在更新】[点击进入](https://space.bilibili.com/617633317)
 - `小黑盒`：小青瑶爱吃糖 【内容在更新】[点击进入](https://xiaoheihe.cn/app/user/profile/28780634)
 - `抖音`：已注销 【被封杀】
 - `YouTube`：Quinn Landon Zhong 【有账号】[点击进入](https://www.youtube.com/@QuinnLandonZhong)
@@ -31,7 +32,10 @@ footer: false
 - `Atomgit开放原子`：天阁创客official 【有账号】[点击进入](https://atomgit.com/xxx252525)
 - `吾爱破解论坛`：TIANGESEC【有账号】[点击进入](https://www.52pojie.cn/home.php?mod=space&uid=2257592)
 
+
 ## 官方讨论群
-- Telegram频道：[天阁创客official频道](https://t.me/+r5I7EG8TZ2k0YWJl)
-- QQ群：[天韵阁-青瑶的杂货铺](https://qm.qq.com/q/uxzAfbb9Uk)
-- QQ频道：[天阁创客official 技术杂谈](https://pd.qq.com/s/bo4l1t6jf)
+- Telegram频道：[🍫🍬🍭💊青瑶的糖果屋](https://t.me/+r5I7EG8TZ2k0YWJl)
+- QQ粉丝群：[青瑶的天韵阁壹号包厢](https://qm.qq.com/q/prRTxo89pK)
+- 技术QQ频道：[天阁创客official 技术杂谈](https://pd.qq.com/s/aao0nqavq?b=9)
+- 生活QQ频道：[小青瑶直播间](https://pd.qq.com/s/d37ebwwq3?b=9)
+- discord频道：[天韵阁-青瑶的藏宝阁](https://discord.gg/SKRdHExvj)
