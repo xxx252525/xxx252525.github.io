@@ -9,8 +9,8 @@ import { headersPlugin } from '@mdit-vue/plugin-headers';
 export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
-  title: "天韵阁~三味书屋",
-  description: "三味书屋包含大量的IT教程",
+  title: "天韵阁",
+  description: "天韵阁包含大量的IT教程",
   pageInfo: true,
   // pageinfo: ["Author", "Date", "Category", "Original", "Tag", "ReadingTime", "Word","PageView"],
   theme,
