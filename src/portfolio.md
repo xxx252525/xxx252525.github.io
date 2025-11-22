@@ -34,6 +34,8 @@ footer: false
 - `快手`：小青瑶【有账号没做内容】快手号：673280365
 - `微信视频号`：青瑶爱吃糖【有账号在更新】
 - `百度`：ehs468【有账号】
+- `知乎`：小青瑶【有账号在更新】[点击进入](https://www.zhihu.com/people/1wufzy)
+- `小红书`：天韵阁主-青瑶【有账号】[点击进入](https://www.xiaohongshu.com/user/profile/5e76f0a50000000001009f1e)
 
 
 ## 官方讨论群
