@@ -23,14 +23,17 @@ footer: false
 - `哔哩哔哩`：青瑶爱吃糖 【内容在更新】[点击进入](https://space.bilibili.com/617633317)
 - `小黑盒`：小青瑶爱吃糖 【内容在更新】[点击进入](https://xiaoheihe.cn/app/user/profile/28780634)
 - `抖音`：已注销 【被封杀】
-- `YouTube`：Quinn Landon Zhong 【有账号】[点击进入](https://www.youtube.com/@QuinnLandonZhong)
+- `YouTube`：XiaoQingYao🍥【内容在更新】[点击进入](https://www.youtube.com/@QuinnLandonZhong)
 - `博客园`：天阁创客official 【内容在更新】[点击进入](https://www.cnblogs.com/tiangesec)
 - `Github`：天阁创客official 【内容在更新】[点击进入](https://github.com/xxx252525)
 - `CSDN`：天阁创客official 【有账号不做内容】[点击进入](https://blog.csdn.net/qq_64349036)
 - `微信公众号`：天阁创客official 【有账号不做内容】
-- `Gitee`：天阁创客official 【有账号】[点击进入](https://gitee.com/TIANGESEC)
+- `Gitee`：天阁创客official 【有账号没更新】[点击进入](https://gitee.com/TIANGESEC)
 - `Atomgit开放原子`：天阁创客official 【有账号】[点击进入](https://atomgit.com/xxx252525)
 - `吾爱破解论坛`：TIANGESEC【有账号】[点击进入](https://www.52pojie.cn/home.php?mod=space&uid=2257592)
+- `快手`：小青瑶【有账号没做内容】快手号：673280365
+- `微信视频号`：青瑶爱吃糖【有账号在更新】
+- `百度`：ehs468【有账号】
 
 
 ## 官方讨论群
