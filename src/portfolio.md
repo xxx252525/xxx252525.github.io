@@ -3,7 +3,7 @@ home: true
 portfolio: true
 title: 关于我
 icon: /assets/icon/自我介绍.svg
-welcome: 👋 2025全网粉丝数量2500+，社区成员数量100+，持续关注小青瑶🍥⚧。
+welcome: 👋 2025全网粉丝数量2900+，社区成员数量200+，持续关注小青瑶🍥⚧。
 name: 小青瑶🍥⚧
 avatar: /assets/doro/Utool-20251115-200004064.png
 

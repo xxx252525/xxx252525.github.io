@@ -290,6 +290,6 @@ highlights:
 
 
 copyright: false
-footer: Copyright © 2024 <a href="https://tiangesec.org.cn/" target="_blank">天阁创客official</a>
+footer: Copyright © 2024-2025 <a href="https://tiangesec.org.cn/" target="_blank">天阁创客official</a>
 ---
 
