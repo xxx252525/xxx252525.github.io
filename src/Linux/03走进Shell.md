@@ -478,3 +478,14 @@ ping miui.com &
 ![后台命令](./03%E8%B5%B0%E8%BF%9BShell.assets/PixPin_2025-02-17_14-07-53.gif)
 
 更多操作我们将在后面的进程与后台篇章进行学习。
+
+## 打赏
+
+如果觉得文章写的还不错，可以给作者一个小小的支持嘛？请我喝杯蜜雪冰城可好？
+
+<img src="./03%E8%B5%B0%E8%BF%9BShell.assets/%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE.png" alt="微信收款" style="zoom: 50%;" />
+
+<img src="./03%E8%B5%B0%E8%BF%9BShell.assets/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%94%B6%E6%AC%BE.jpg" alt="支付宝收款" style="zoom:50%;" />
+
+---
+
