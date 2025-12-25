@@ -18,15 +18,16 @@ export default navbar([
     children: [
       { text: "Linux", icon: '/assets/icon/linux.svg', link: "/Linux/" },
       { text: "Bash Shell", icon: '/assets/icon/shell.svg', link: "/Shell/" },
-      { text: "网络与防火墙", icon: '/assets/icon/网络防火墙.svg', link: "/Networks&Firewalls/" },
+      { text: "Linux系统安全", icon: '/assets/icon/网络安全.svg', link: "/Linux-securety/" },
       { text: "中间件教程", icon: '/assets/icon/Middleware.svg', link: "/Middleware/" },
       { text: "LANMP部署", icon: '/assets/icon/network.svg', link: "/LANMP/" },
-      { text: "文件共享部署", icon: '/assets/icon/FTP服务器.svg', link: "/FileShare/" },
+      { text: "文件服务部署", icon: '/assets/icon/FTP服务器.svg', link: "/FileShare/" },
       { text: "数据库服务", icon: '/assets/icon/数据库服务.svg', link: "/Database/" },
       { text: "Git教程", icon: '/assets/icon/git.svg', link: "/Git/" },
       { text: "Docker教程", icon: '/assets/icon/Docker.svg', link: "/Docker/" },
       { text: "Ansible", icon: '/assets/icon/ansible.svg', link: "/Ansible/" },
       { text: "Zabbix", icon: '/assets/icon/zabbix.svg', link: "/Zabbix/" },
+			{ text: "Kubernetes", icon: '/assets/icon/kubernetes.svg', link: "/Kubernetes/" },
     ]
   },
   {

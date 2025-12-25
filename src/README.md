@@ -169,7 +169,7 @@ highlights:
       - title: DHCP
         icon: /assets/icon/DHCP.svg
         details: 用于自动分配IP地址、子网掩码、网关等信息，用于上网操作
-        link: /Networks&Firewalls/DHCP/
+        link: /Linux/
 		
       - title: FTP
         icon: /assets/icon/ftp.svg
@@ -189,12 +189,37 @@ highlights:
       - title: DNS
         icon: /assets/icon/dns.svg
         details: 域名解析系统，用于网站的访问
-        link: /Networks&Firewalls/DNS/
+        link: /Linux/
 
       - title: Tomcat
         icon: /assets/icon/tomcat.svg
         details: Tomcat 服务器是一个免费的开放源代码的Web 应用服务
         link: /Middleware/Tomcat/
+				
+      - title: Docker
+        icon: /assets/icon/Docker.svg
+        details: 一个开源的应用容器引擎
+        link: /Docker/
+
+      - title: Kubernetes
+        icon: /assets/icon/tomcat.svg
+        details: 一个开源的容器编排平台，用于自动化部署、扩展和管理容器化应用程序
+        link: /Kubernetes/
+
+      - title: Unity
+        icon: /assets/icon/unity.svg
+        details: 广泛使用的一款专业游戏引擎
+        link: /GameDev/Unity/
+
+      - title: Godot
+        icon: /assets/icon/Godot.svg
+        details: Godot是一个全新开发的游戏引擎，横跨PC、移动端、Web等多端游戏引擎
+        link: /Docker/
+				
+      - title: Kubernetes
+        icon: /assets/icon/tomcat.svg
+        details: 
+        link: /Kubernetes/
 
       - title: Unity
         icon: /assets/icon/unity.svg
