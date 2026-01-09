@@ -1,3 +1,15 @@
+---
+icon: /assets/icon/linux.svg
+category:
+  - 运维基础
+contributors: true
+lastUpdated: true
+pageview: true
+isOriginal: true
+date: 2026-01-8
+---
+
+
 # 13-KDE客户端桌面美化
 
 美化效果视频：https://www.bilibili.com/video/BV1G5HCzEESc/?spm_id_from=333.1387.upload.video_card.click&vd_source=a847909419ceec13bcd61c4daa4e0f4e
