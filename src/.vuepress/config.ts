@@ -32,16 +32,14 @@ export default defineUserConfig({
         path: "/", 
         title: "公告 (重要通知) ",
         content: `
-		<p>发布时间：2025年2月10日</p>
+				<p>发布时间：2025年2月10日</p>
         <p>本站招募作者完善其他方向的教程，例如：</p>
           <ul>
           <li>前端</li>
           <li>后端</li>
           <li>游戏开发</li>
-          <li>嵌入式</li>
-          <li>区块链</li>
           </ul>
-          投稿详情请点击以下按钮：
+        <p>投稿详情请点击以下按钮：</p>
         `,
         showOnce: false,
         fullscreen: false,

@@ -3,6 +3,11 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   "/portfolio",
+	{
+		text: "博客",
+		icon: "/assets/icon/鱼板.svg",
+		link: "/Blog/",
+	},
   {
     text: "逆向二进制",
     icon: "book",
@@ -72,20 +77,6 @@ export default navbar([
     ]
   },
   {
-    text: "嵌入式开发",
-    icon: "book",
-    children: [
-      { text: "51教程", icon: '/assets/icon/CPU.svg', link: "/C51/" },
-      { text: "STM32教程", icon: '/assets/icon/stm32.svg', link: "/STM32/" },
-      { text: "ESP32教程", icon: '/assets/icon/ESP32.svg', link: "/ESP32/" },
-      { text: "Arduino教程", icon: '/assets/icon/arduino.svg', link: "/Arduino/" },
-      { text: "keil教程", icon: '/assets/icon/armkeil.svg', link: "/Keil/" },
-      { text: "树莓派教程", icon: '/assets/icon/raspi.svg', link: "/Raspberry/" },
-      { text: "RTOS教程", icon: '/assets/icon/RTOS.svg', link: "/RTOS/" },
-      { text: "Linux嵌入式", icon: '/assets/icon/芯片.svg', link: "/LinuxEmbedded/" },
-    ]
-  },
-  {
     text: "算法",
     icon: "book",
     children: [
@@ -94,11 +85,6 @@ export default navbar([
       { text: "OpenCV算法", icon: '/assets/icon/opencv.svg', link: "/Arithmetic/OpenCV/" },
       { text: "Yolov算法", icon: '/assets/icon/Yolov.svg', link: "/Arithmetic/Yolov/" },
     ],
-  },
-  {
-    text: "区块链",
-    icon: "/assets/icon/UBQ 区块链.svg",
-    link: "/区块链/",
   },
 
 ]);

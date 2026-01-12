@@ -21,6 +21,10 @@ import { sidebar } from "vuepress-theme-hope";
 export default sidebar({
   "/": [
 	{
+		text: "博客", prefix: "Blog/", collapsible: true, 
+		icon: "/assets/icon/鱼板.svg", link: "/Blog/", children: "structure",
+	},
+	{
 	  text: "Linux教程", prefix: "Linux/", collapsible: true, 
 	  icon: "/assets/icon/linux.svg", link: "/Linux/", children: "structure",
 	},
@@ -131,39 +135,6 @@ export default sidebar({
 	  icon: "/assets/icon/Blender.svg", link: "/Blender/", children: "structure",
 	},
 	{
-	  text: "Arduino教程", prefix: "Adruino/", collapsible: true,
-	  icon: "/assets/icon/arduino.svg", link: "/Adruino/", children: "structure", 
-	},
-	{
-	  text: "Keil教程", prefix: "Keil/", collapsible: true,
-	  icon: "/assets/icon/armkeil.svg", link: "/Keil/", children: "structure",
-	},
-	{
-	  text: "51单片机开发", prefix: "C51/", collapsible: true,
-	  icon: "/assets/icon/CPU.svg", link: "/C51/", children: "structure",
-	},
-	{
-	  text: "STM32开发", prefix: "STM32/", collapsible: true,
-	  icon: "/assets/icon/stm32.svg", link: "/STM32/", children: "structure",
-	},
-	{
-	  text: "ESP32开发", prefix: "ESP32/", collapsible: true,
-	  icon: "/assets/icon/ESP32.svg", link: "/ESP32/", children: "structure",
-	},
-	{
-	  text: "树莓派教程", prefix: "Raspberry/", collapsible: true,
-	  icon: "/assets/icon/raspi.svg", link: "/Raspberry/", children: "structure",
-	},
-	{
-	  text: "RTOS开发", prefix: "RTOS/", collapsible: true,
-	  icon: "/assets/icon/RTOS.svg", link: "/RTOS/", children: "structure",
-	},
-	{
-	  text: "Linux嵌入式", prefix: "LinuxEmbedded/", collapsible: true,
-	  icon: "/assets/icon/芯片.svg", link: "/LinuxEmbedded/", children: "structure",
-	},
-
-	{
 	  text: "Apache教程", prefix: "Middleware/Apache/", collapsible: true,
 	  icon: "/assets/icon/apache.svg", link: "/Middleware/Apache/", children: "structure",
 	},
@@ -235,14 +206,6 @@ export default sidebar({
 	{ 
 	text: "Yolov视觉算法", prefix: "Arithmetic/Yolov/", collapsible: true,
 	icon: '/assets/icon/Yolov.svg', link: "/Arithmetic/Yolov/", children: "structure",
-	},
-  
-	{
-	  text: "区块链",
-	  prefix: "区块链/",
-	  icon: "/assets/icon/UBQ 区块链.svg",
-	  collapsible: true,
-	  children: "structure",
 	},
 	{ 
 	  text: "Android逆向", prefix: "AndroidReverse/", collapsible: true,

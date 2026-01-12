@@ -12,8 +12,8 @@ heroText: 天阁创客official
 tagline: 这里含有大量的IT技术教程，涵盖多方向的内容，并且内容实时更新，保持技术的最新，励志做最好的开源教程。
 actions:
   - text: 我的博客
-    icon: lightbulb
-    link: 'https://frp-gas.com:24392/'
+    icon: /assets/icon/鱼板.svg
+    link: '/Blog/'
     type: primary
 
   - text: Github
@@ -300,6 +300,6 @@ highlights:
 
 
 copyright: false
-footer: Copyright © 2024-2025 <a href="https://tiangesec.org.cn/" target="_blank">天阁创客official</a>
+footer: Copyright © 2024-2026 <a href="https://github.com/xxx252525" target="_blank">小青瑶🍥【前天阁创客official】</a>
 ---
 
