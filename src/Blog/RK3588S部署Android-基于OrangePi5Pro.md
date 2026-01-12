@@ -9,10 +9,23 @@ isOriginal: true
 date: 2024-07-07
 ---
 
+# RK3588部署Android云手机
 
-# RK3588部署Android云手机-基于OrangePi5Pro
+Android云手机实际上有个专门的称呼：Redroid。Redroid是一台在Docker容器中虚拟的手机。
 
-## 环境准备
+
+
+## 硬件环境
+
+硬件设备：Orange Pi 5 Pro(RK3588S)或者其他RK3588系列开发板
+
+操作系统：Ubuntu Rockchip 22
+
+网络环境：以太网(有线网络连接)
+
+
+
+## 软件环境准备
 
 安装Docker环境
 
@@ -62,7 +75,9 @@ uname -srv
 Linux 5.10.0-1007-rockchip #7-Ubuntu SMP Wed Jun 5 22:50:55 UTC 2024
 ```
 
-# Android模拟器部署
+
+
+## Android云手机部署
 
 适用于具有多种功能的 RK3588 的 Redroid 映像
 
@@ -187,7 +202,9 @@ sudo docker cp redroid:/vendor/etc/firmware/mali_csffw.bin /lib/firmware/
 sudo docker restart redroid
 ```
 
-## Android参数
+
+
+## 云手机其他参数
 
 | 参数                                                    | 描述                         |
 | ------------------------------------------------------- | ---------------------------- |
@@ -208,11 +225,11 @@ sudo docker ps -a
 
 ![image-20240707161514457](./RK3588S%E9%83%A8%E7%BD%B2Android-%E5%9F%BA%E4%BA%8EOrangePi5Pro.assets/image-20240707161514457.png)
 
-# 连接Android云手机
 
-## 安装scrcpy或ws-scrcpy
 
-### 安装ws-scrcpy
+# 连接Redroid
+
+## 安装ws-scrcpy
 
 从Gigub克隆仓库
 
@@ -241,7 +258,7 @@ npm install -g node-gyp
 
 ![image-20240707165228613](./RK3588S%E9%83%A8%E7%BD%B2Android-%E5%9F%BA%E4%BA%8EOrangePi5Pro.assets/image-20240707165228613.png)
 
-#### 构建启动
+### 构建启动
 
 ```shell
 cd ws-scrcpy
@@ -253,7 +270,9 @@ sudo npm audit fix
 sudo npm start
 ```
 
-### 安装scrcpy
+
+
+## 安装scrcpy
 
 安装scrcpy客户端依赖
 
@@ -306,7 +325,7 @@ scrcpy
 
 ![0aebb2fe4e90b5d487a50b53fa7267cb](./RK3588S%E9%83%A8%E7%BD%B2Android-%E5%9F%BA%E4%BA%8EOrangePi5Pro.assets/0aebb2fe4e90b5d487a50b53fa7267cb.jpg)
 
-#### 使用示例
+### 使用示例
 
 以 H.265（更好的质量）捕获屏幕，将大小限制为 1920，将帧速率限制为 60fps，禁用音频，并通过模拟物理键盘来控制设备：
 
@@ -333,30 +352,27 @@ scrcpy --video-source=camera --camera-size=1920x1080 --camera-facing=front --v4l
 scrcpy --otg
 ```
 
-> 更多用法参考scrcpy手册：
+
+
+## Escrcpy
+
+以下内容为2026年1月12日新增
+
+**使用图形化的 scrcpy 显示和控制你的安卓设备**
+
+![image-20260112134143368](./RK3588S%E9%83%A8%E7%BD%B2Android-%E5%9F%BA%E4%BA%8EOrangePi5Pro.assets/image-20260112134143368.png)
+
+> 软件下载地址如下：
 >
-> 该应用程序提供了许多功能和配置选项。它们记录在以下页面中：
+> https://github.com/viarotel-org/escrcpy
 >
-> - [Connection](https://github.com/Genymobile/scrcpy/blob/master/doc/connection.md)
-> - [Video](https://github.com/Genymobile/scrcpy/blob/master/doc/video.md)
-> - [Audio](https://github.com/Genymobile/scrcpy/blob/master/doc/audio.md)
-> - [Control](https://github.com/Genymobile/scrcpy/blob/master/doc/control.md)
-> - [Keyboard](https://github.com/Genymobile/scrcpy/blob/master/doc/keyboard.md)
-> - [Mouse](https://github.com/Genymobile/scrcpy/blob/master/doc/mouse.md)
-> - [Device](https://github.com/Genymobile/scrcpy/blob/master/doc/device.md)
-> - [Window](https://github.com/Genymobile/scrcpy/blob/master/doc/window.md)
-> - [Recording](https://github.com/Genymobile/scrcpy/blob/master/doc/recording.md)
-> - [Tunnels](https://github.com/Genymobile/scrcpy/blob/master/doc/tunnels.md)
-> - [OTG](https://github.com/Genymobile/scrcpy/blob/master/doc/otg.md)
-> - [Camera](https://github.com/Genymobile/scrcpy/blob/master/doc/camera.md)
-> - [Video4Linux](https://github.com/Genymobile/scrcpy/blob/master/doc/v4l2.md)
-> - [Shortcuts](https://github.com/Genymobile/scrcpy/blob/master/doc/shortcuts.md)
+> 为了防止原作者的库丢失，这是我的备份库地址：
+>
+> https://github.com/xxx252525/escrcpy
 
+我们知道Orange Pi 5 Pro的IP地址即可连接操作，在左下角输入IP:端口即可
 
-
-
-
-
+![image-20260112134904370](./RK3588S%E9%83%A8%E7%BD%B2Android-%E5%9F%BA%E4%BA%8EOrangePi5Pro.assets/image-20260112134904370.png)
 
 
 
