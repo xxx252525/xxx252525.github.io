@@ -9,7 +9,7 @@ isOriginal: true
 date: 2024-07-11
 ---
 
-# Linux install OhMyZsh &&Powerlevel10k
+# Linux install OhMyZsh
 
 ![img](./Linux%E5%AE%89%E8%A3%85oymyzsh.assets/343738310-d4987179-f04b-40c2-8706-43c5fbd0a76c-1768189415187-1.png)
 

@@ -9,7 +9,9 @@ isOriginal: true
 date: 2024-09-15
 ---
 
-# 使用PowerShell启用IIS和FTP
+
+# Windows Start FTP Service
+## 使用PowerShell启用IIS和FTP
 
 **注意：以下操作都需要在管理员模式下运行！！！**
 
@@ -25,7 +27,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName IIS-FTPServer
 
 请注意，这些命令可能需要一些时间来执行，并且可能需要重启计算机才能完成安装。
 
-# 检查FTP服务是否已安装
+## 检查FTP服务是否已安装
 
 确保FTP服务已经安装在您的系统上。你可以通过以下命令来检查：
 
@@ -39,7 +41,7 @@ Get-WindowsFeature Web-FTP-Server
 Install-WindowsFeature Web-FTP-Server
 ```
 
-# 检查服务状态
+## 检查服务状态
 
 检查FTP服务的当前状态，看它是否已经启动或者是否有其他依赖服务未启动：
 
@@ -47,7 +49,7 @@ Install-WindowsFeature Web-FTP-Server
 Get-Service ftpsvc
 ```
 
-# 启动依赖服务
+## 启动依赖服务
 
 如果FTP服务依赖于其他服务，确保所有依赖服务都已启动：
 
@@ -56,7 +58,7 @@ Get-Service ftpsvc
 Start-Service IISADMIN
 ```
 
-## 开启FTP服务
+### 开启FTP服务
 
 首先，确保FTP服务在您的系统上已经安装并启动。
 
@@ -65,7 +67,7 @@ Start-Service IISADMIN
 Start-Service -Name "FTPSVC"
 ```
 
-## 创建FTP用户账户和密码
+### 创建FTP用户账户和密码
 
 现在，我们将创建一个新的本地用户账户，该账户将用于FTP身份验证。
 
@@ -83,7 +85,7 @@ New-LocalUser -Name $Username -Password$SecurePassword -Description "FTP User Ac
 Add-LocalGroupMember -Group "IIS_IUSRS" -Member $Username
 ```
 
-## 创建FTP共享文件夹
+### 创建FTP共享文件夹
 
 接下来，我们创建一个文件夹，并将其共享为FTP站点的一部分。
 
@@ -103,7 +105,7 @@ $acl.SetAccessRule($AccessRule)
 Set-Acl -Path $FTPPath -AclObject $acl
 ```
 
-## 配置FTP站点
+### 配置FTP站点
 
 最后，我们需要配置FTP站点，使其使用我们创建的共享文件夹。
 

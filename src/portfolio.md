@@ -23,7 +23,7 @@ footer: false
 - `哔哩哔哩`：青瑶爱吃糖 【内容在更新】[点击进入](https://space.bilibili.com/617633317)
 - `小黑盒`：小青瑶爱吃糖 【内容在更新】[点击进入](https://xiaoheihe.cn/app/user/profile/28780634)
 - `抖音`：小青瑶🍥【新账号】[点击进入](https://v.douyin.com/8kjnlHwpPgo/)
-- `YouTube`：XiaoQingYao🍥【内容在更新】[点击进入](https://www.youtube.com/@QuinnLandonZhong)
+- `YouTube`：XiaoQingYao🍥【内容在更新】[点击进入](https://www.youtube.com/@XiaoQingYao)
 - `知乎`：小青瑶【有账号在更新】[点击进入](https://www.zhihu.com/people/1wufzy)
 - `小红书`：天韵阁主-青瑶【有账号】[点击进入](https://www.xiaohongshu.com/user/profile/5e76f0a50000000001009f1e)
 - `博客园`：天阁创客official 【内容在更新】[点击进入](https://www.cnblogs.com/tiangesec)
