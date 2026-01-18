@@ -226,16 +226,6 @@ highlights:
         details: Blender是一款开源3D创作套件，涵盖建模、动画、渲染、合成等功能，强大且免费
         link: /GameDev/Blender/
 
-      - title: Arduino
-        icon: /assets/icon/arduino.svg
-        details: 一个开源物理计算平台，基于一个简单的 I/O 板和一个实现 Processing/Wiring 语言的开发环境
-        link: /Arduino/
-
-      - title: 区块链
-        icon: /assets/icon/UBQ 区块链.svg
-        details: 一种去中心化的分布式技术，用于保障数据安全，主要应用于金融货币和智能合约
-        link: /区块链/
-
       - title: 数据结构与算法
         icon: /assets/icon/算法.svg
         details: 数据结构负责组织数据，算法是解决问题的根本，二者相辅相成，开发中时常会用上
