@@ -7,6 +7,9 @@ import Giscus from 'giscus';
 import vuepressPluginGiscus from "vuepress-plugin-giscus";
 import { commentPlugin } from '@vuepress/plugin-comment';
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
+import docsearch from '@docsearch/js';
+import '@docsearch/css';
+
 
 export default hopeTheme({
   hostname: "https://xxx252525.github.io",
@@ -114,7 +117,11 @@ export default hopeTheme({
 
     },
 		docsearch: {
-			
+			container: '#docsearch',
+			appId: 'WONHO3QBWR',
+			indexName: 'xxx252525',
+			apiKey: '1556e3c892c43602648c9be1308bac42',
+			askAi: 'YOUR_ALGOLIA_ASSISTANT_ID',
 		},
     components: {
       components: ["Badge", "VPCard"],
