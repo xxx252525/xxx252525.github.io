@@ -8,7 +8,7 @@ import vuepressPluginGiscus from "vuepress-plugin-giscus";
 import { commentPlugin } from '@vuepress/plugin-comment';
 import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import docsearch from '@docsearch/js';
-import '@docsearch/css';
+
 
 
 export default hopeTheme({
