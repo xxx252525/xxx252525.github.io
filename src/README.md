@@ -291,5 +291,6 @@ highlights:
 
 copyright: false
 footer: Copyright © 2024-2026 <a href="https://github.com/xxx252525" target="_blank">小青瑶🍥【前天阁创客official】</a>
+license: "All Rights Reserved"
 ---
 
