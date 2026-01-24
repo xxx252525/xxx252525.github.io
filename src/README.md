@@ -4,11 +4,11 @@ icon: home
 title: 首页
 heroImage: /logo02.svg
 heroImageDark: /logo-dark.svg
-bgImage: /assets/image/background-light.webp
-bgImageDark: /assets/image/background-dark.webp
+bgImage: /assets/image/鱼板.svg
+bgImageDark: /assets/image/鱼板.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: 小青瑶🍥🏳️‍⚧️
+heroText: 小青瑶
 tagline: 这里含有大量的IT技术教程，涵盖多方向的内容，并且内容实时更新，保持技术的最新，励志做最好的开源教程。
 actions:
   - text: 我的博客

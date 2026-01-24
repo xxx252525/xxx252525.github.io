@@ -23,7 +23,7 @@ footer: false
 - `YouTube`：XiaoQingYao🍥【内容在更新】[点击进入](https://www.youtube.com/@XiaoQingYao)
 - `知乎`：小青瑶【有账号在更新】[点击进入](https://www.zhihu.com/people/1wufzy)
 - `小红书`：天韵阁主-青瑶【有账号】[点击进入](https://www.xiaohongshu.com/user/profile/5e76f0a50000000001009f1e)
-- `博客园`：天阁创客official 【内容在更新】[点击进入](https://www.cnblogs.com/tiangesec)
+- `博客园`：小青瑶 【内容在更新】[点击进入](https://www.cnblogs.com/tiangesec)
 - `Github`：小青瑶🍥🏳️‍⚧️️ 【内容在更新】[点击进入](https://github.com/xxx252525)
 - `CSDN`：天阁创客official 【有账号不做内容】[点击进入](https://blog.csdn.net/qq_64349036)
 - `微信公众号`：天阁创客official 【有账号不做内容】
