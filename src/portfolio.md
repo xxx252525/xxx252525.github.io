@@ -3,14 +3,11 @@ home: true
 portfolio: true
 title: 关于我
 icon: /assets/icon/自我介绍.svg
-welcome: 👋 2026全网粉丝数量4000+，社区成员数量200+，持续关注小青瑶🍥⚧。
-name: 小青瑶🍥⚧
+welcome: 👋 2026全网粉丝数量4000+，社区成员数量200+，持续关注小青瑶🍥🏳️‍⚧️。
+name: 小青瑶🍥🏳️‍⚧️
 avatar: /assets/doro/5784aac8-512c-4f02-9a0d-d03c368ee7c9.png
 
 titles:
-  - 我是一个热爱技术、热爱女装的小药娘
-  - 同时也是一个热爱生活的普通人
-  - 这是我的第二个教程类网站
   - 这里有大量的IT技术教程
   - 内容新颖，但是已暂停更新，没有收益
 
@@ -27,7 +24,7 @@ footer: false
 - `知乎`：小青瑶【有账号在更新】[点击进入](https://www.zhihu.com/people/1wufzy)
 - `小红书`：天韵阁主-青瑶【有账号】[点击进入](https://www.xiaohongshu.com/user/profile/5e76f0a50000000001009f1e)
 - `博客园`：天阁创客official 【内容在更新】[点击进入](https://www.cnblogs.com/tiangesec)
-- `Github`：天阁创客official 【内容在更新】[点击进入](https://github.com/xxx252525)
+- `Github`：小青瑶🍥🏳️‍⚧️️ 【内容在更新】[点击进入](https://github.com/xxx252525)
 - `CSDN`：天阁创客official 【有账号不做内容】[点击进入](https://blog.csdn.net/qq_64349036)
 - `微信公众号`：天阁创客official 【有账号不做内容】
 - `Gitee`：天阁创客official 【有账号没更新】[点击进入](https://gitee.com/TIANGESEC)

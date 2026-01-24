@@ -15,7 +15,7 @@ export default hopeTheme({
   hostname: "https://xxx252525.github.io",
 
   author: {
-    name: "小青瑶🍥⚧[前天阁创客official]",
+    name: "小青瑶🍥🏳️‍⚧️",
     url: "https://github.com/xxx252525",
     email: "tiangesec@qq.com",
   },
