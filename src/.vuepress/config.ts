@@ -30,9 +30,9 @@ export default defineUserConfig({
       config: [{
         // message: "公告",
         path: "/", 
-        title: "公告 (重要通知) ",
+        title: "公告 ",
         content: `
-				<h3>2026年1月20日发布</h3>
+				<h3>2026年1月20日更新</h3>
 				<p> 
 				本站所有原创内容（包括但不限于文章、教程、图片、排版设计）仅供个人学习与参考。<br/>
 				未经作者明确书面许可，禁止任何形式的：

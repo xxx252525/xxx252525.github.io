@@ -2,10 +2,10 @@
 home: true
 icon: home
 title: 首页
-heroImage: /logo02.svg
-heroImageDark: /logo-dark.svg
-bgImage: /assets/image/鱼板.svg
-bgImageDark: /assets/image/鱼板.svg
+heroImage: /鱼板.svg
+heroImageDark: /鱼板.svg
+bgImage: /assets/image/background-light.webp
+bgImageDark: /assets/image/background-dark.webp
 bgImageStyle:
   background-attachment: fixed
 heroText: 小青瑶
