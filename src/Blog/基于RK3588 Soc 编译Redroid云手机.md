@@ -1,5 +1,5 @@
 ---
-icon: /assets/icon/android.svg
+icon: /assets/icon/鱼板.svg
 category:
   - Android逆向
 contributors: true

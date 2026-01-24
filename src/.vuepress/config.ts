@@ -9,8 +9,8 @@ import { headersPlugin } from '@mdit-vue/plugin-headers';
 export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
-  title: "天韵阁",
-  description: "天韵阁包含大量的IT教程",
+  title: "小青瑶的书屋",
+  description: "小青瑶的书屋包含大量的IT教程",
   pageInfo: true,
   // pageinfo: ["Author", "Date", "Category", "Original", "Tag", "ReadingTime", "Word","PageView"],
   theme,
@@ -21,8 +21,8 @@ export default defineUserConfig({
 
   plugins: [
     docsearchPlugin({
-      appId: 'G4HN6M8APR',  // 在 DocSearch 设置中获得的 appId
-      apiKey: '499a24e1cd5fddbb2f76fe46bd3c4530',  // 在 DocSearch 设置中获得的 apiKey
+      appId: 'WONHO3QBWR',  // 在 DocSearch 设置中获得的 appId
+      apiKey: '1556e3c892c43602648c9be1308bac42',  // 在 DocSearch 设置中获得的 apiKey
       indexName: 'xxx252525io',  // 在 DocSearch 设置中获得的 indexName
       placeholder: '搜索文档',  // 搜索框的提示文本
     }),

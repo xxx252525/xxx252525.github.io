@@ -22,7 +22,7 @@ export default hopeTheme({
 
   icon: "fontawesome-with-brands",
 
-  logo: "/logo.png",
+  logo: "/鱼板.svg",
 
   repo: "xxx252525/xxx252525.github.io",
 
