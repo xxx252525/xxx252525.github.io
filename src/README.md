@@ -2,8 +2,8 @@
 home: true
 icon: home
 title: 首页
-heroImage: /鱼板.svg
-heroImageDark: /鱼板.svg
+heroImage: /作者.png
+heroImageDark: /作者.png
 bgImage: /assets/image/background-light.webp
 bgImageDark: /assets/image/background-dark.webp
 bgImageStyle:
@@ -21,9 +21,6 @@ actions:
 
   - text: 哔哩哔哩
     link: 'https://space.bilibili.com/617633317/?spm_id_from=333.999.0.0'
-
-  - text: 小黑盒
-    link: 'https://xiaoheihe.cn/app/user/profile/28780634'
 	
   - text: 博客园
     link: 'https://www.cnblogs.com/tiangesec'

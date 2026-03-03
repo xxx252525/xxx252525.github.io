@@ -12,7 +12,8 @@ date: 2026-01-8
 
 # 13-KDE客户端桌面美化
 
-美化效果视频：https://www.bilibili.com/video/BV1G5HCzEESc/?spm_id_from=333.1387.upload.video_card.click&vd_source=a847909419ceec13bcd61c4daa4e0f4e
+[点击进入美化效果视频](https://www.bilibili.com/video/BV1G5HCzEESc/?spm_id_from=333.1387.upload.video_card.click&vd_source=a847909419ceec13bcd61c4daa4e0f4e)
+
 
 ## 设置窗口动画与特效
 
