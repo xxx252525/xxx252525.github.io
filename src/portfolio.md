@@ -5,7 +5,7 @@ title: 关于我
 icon: /assets/icon/自我介绍.svg
 bgImage: /assets/image/background-light.webp
 bgImageDark: /assets/image/background-dark.webp
-welcome: 👋 2026全网粉丝数量5000+，社区成员数量200+，持续关注小青瑶🍥🏳️‍⚧️。
+welcome: 👋 2026全网粉丝数量7000+，社区成员数量500+，持续关注小青瑶🍥🏳️‍⚧️。
 name: 小青瑶🍥🏳️‍⚧️
 avatar: /作者.png
 
@@ -22,7 +22,7 @@ footer: false
 - `推特𝕏`：XiaoQingYao🍥【偶尔更新】[点击进入](https://x.com/tiangesec?t=9Gj9H_coiTa26doy0f_Niw&s=09)
 - `哔哩哔哩`：青瑶爱吃糖 【内容在更新】[点击进入](https://space.bilibili.com/617633317)
 - `小黑盒`：小青瑶爱吃糖 【内容在更新】[点击进入](https://xiaoheihe.cn/app/user/profile/28780634)
-- `抖音`：小青瑶🍥【新账号】[点击进入](https://v.douyin.com/8kjnlHwpPgo/)
+- `抖音`：小青瑶🍥【新账号】[点击进入](https://v.douyin.com/JgPzGr6MoeI/)
 - `YouTube`：XiaoQingYao🍥【内容在更新】[点击进入](https://www.youtube.com/@XiaoQingYao)
 - `知乎`：小青瑶【有账号】[点击进入](https://www.zhihu.com/people/1wufzy)
 - `小红书`：天韵阁主-青瑶【有账号】[点击进入](https://www.xiaohongshu.com/user/profile/5e76f0a50000000001009f1e)
